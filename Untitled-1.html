@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelulusan Ujian</title>
+</head>
+<body>
+    <h2> Cek satatus kelulusan ujian RPL </h2>
+    <script>
+        let NilaiTeori = 80;
+        let NilaiPraktek = 70;
+
+        document.write("Nilai Teori: " + NilaiTeori + "<br>");
+        document.write("Nilai Praktek: " + NilaiPraktek + "<br><hr>");
+        if (NilaiTeori >= 75 && NilaiPraktek >= 75) {
+            document.write("hasil akhir: Selamat Anda Lulus Ujian !");
+        } else {
+            document.write("hasil akhir: Mohon Maaf Anda Tidak Lulus Ujian RPL");
+        }
+    </script>
+</body>
+</html>
